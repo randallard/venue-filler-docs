@@ -1,0 +1,46 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Navigation styles
+nav {
+  .nav-item {
+    color: #fff;
+    margin-right: 20px;
+    text-decoration: none;
+    
+    &:hover {
+      color: #e8e8e8;
+    }
+  }
+  
+  .nav-children {
+    display: none;
+    position: absolute;
+    background: #252525;
+    padding: 10px;
+    border-radius: 4px;
+    
+    li {
+      list-style: none;
+      
+      a {
+        color: #fff;
+        text-decoration: none;
+        
+        &:hover {
+          color: #e8e8e8;
+        }
+      }
+    }
+  }
+}
+
+// Mermaid diagram styles for dark theme
+.mermaid {
+  background: #252525;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+}

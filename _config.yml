@@ -31,11 +31,11 @@ navigation:
     url: /development-guide/
     children:
       - title: "Security Scanning"
-        url: /development-guide/security-scanning
+        url: /development-guide/security-scanning.md
   - title: "Installation"
     url: /installation/
   - title: "User Guide"
     url: /user-guide/
     children:
       - title: "Glossary"
-        url: /user-guide/glossary
+        url: /user-guide/glossary.md
