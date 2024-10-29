@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.6.1/mermaid.min.js"></script>
+  </head>
+  <body>
+    <div id="header">
+      {% include navigation.html %}
+    </div>
+
+    <div class="wrapper">
+      <section>
+        {{ content }}
+      </section>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        mermaid.initialize({
+          startOnLoad: true,
+          theme: 'dark',
+          themeVariables: {
+            darkMode: true,
+            primaryColor: '#62929e',
+            primaryTextColor: '#fff',
+            primaryBorderColor: '#7C0000',
+            lineColor: '#F8B229',
+            secondaryColor: '#006100',
+            tertiaryColor: '#fff'
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
