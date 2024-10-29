@@ -1,15 +1,4 @@
----
-layout: default
-title: Welcome to Venue Filler Documentation
----
-
 # Welcome to Venue Filler Documentation
-
-## Navigation
-
-{% for item in site.navigation %}
-- [{{ item.title }}]({{ site.baseurl }}{{ item.url }})
-{% endfor %}
 
 ## Introduction
 

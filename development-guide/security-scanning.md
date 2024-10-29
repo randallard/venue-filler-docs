@@ -1,8 +1,3 @@
----
-layout: page
-title: Trivy Security Scanning
----
-
 # Trivy Security Scanning
 
 This project uses Trivy, a comprehensive vulnerability scanner, integrated into our GitHub Actions workflow to ensure the security of our codebase and dependencies.
