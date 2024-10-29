@@ -18,6 +18,9 @@ nav:
     link: "/installation/"
   - name: "User Guide"
     link: "/user-guide/"
+    subnav:
+      - name: "Glossary"
+        link: "/user-guide/glossary.md"
 
 # Optional: You can add custom CSS for further dark mode adjustments
 # custom_css: custom.css
